@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* SECTION 1 — PROFILE HEADER */
+.profile-header {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f0f4ff;
+    border-bottom: 3px solid #1a73e8;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #1a73e8;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile-header h1 {
+    font-size: 2.2rem;
+    color: #222222;
+    margin-bottom: 5px;
+}
+
+.profile-header .title {
+    font-size: 1.1rem;
+    color: #1a73e8;
+    font-weight: 500;
+}
+
+/* SECTION TITLES */
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #1a73e8;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border-left: 5px solid #1a73e8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* SECTION 2 — ABOUT ME & SECTION 5 — INSPIRATION */
+.about-me p, .inspiration p {
+    font-size: 1.05rem;
+    color: #444444;
+    text-align: justify;
+}
+
+/* SECTION 3 — PERSONAL DETAILS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #f0f4ff;
+}
+
+table th {
+    width: 30%;
+    color: #1a73e8;
+    font-weight: 600;
+}
+
+table td {
+    color: #222222;
+}
+
+/* SECTION 4 — SKILLS */
+.skill-item {
+    margin-bottom: 20px;
+}
+
+.skill-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.progress-bg {
+    width: 100%;
+    background-color: #f0f4ff;
+    height: 12px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #1a73e8;
+    height: 100%;
+    border-radius: 6px;
+    transition: width 1s ease-in-out;
+}
